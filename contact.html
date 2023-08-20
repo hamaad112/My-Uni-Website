@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="about-header">
+        <nav>
+            <a href="index.html"><h1 class="about-logo">EduWEB</h1></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+        </div>
+    </section>
+
+
+    <!-------contact us--------->
+
+    <section class="location">
+        <img src="https://images.unsplash.com/photo-1478860409698-8707f313ee8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bWFwfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60" alt="">
+    </section>
+
+    <div class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-solid fa-house"></i>
+                    <span>
+                        <h5>XYZ Road, ABC Building</h5>
+                        <p>Lahore, Pakistan</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-solid fa-phone"></i>
+                    <span>
+                        <h5>+92 0000000000</h5>
+                        <p>Monday to saturday, 10AM to 5PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-regular fa-envelope"></i>
+                    <span>
+                        <h5>info@gmail.com</h5>
+                        <p>Email us your query</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+
+                <form action="">
+                    <input type="text" name="" id="" placeholder="Enter Your Name" required>
+                    <input type="email" name="" id="" placeholder="Enter Your Email" required>
+                    <input type="text" name="" id="" placeholder="Enter Your Subject" required>
+                    <textarea name="" id="" rows="8" placeholder="Messege"></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Messege</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--------Footer------->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid similique assumenda earum <br> minus
+            laudantium debitis quas nam animi et pariatur molestias expedita </p>
+        <div class="social-icons">
+            <i class="fa  icons fa-solid fa-facebook"></i>
+            <i class="fa icons fa-solid fa-instagram"></i>
+            <i class="fa icons fa-solid fa-twitter"></i>
+            <i class="fa icons fa-solid fa-linkedin"></i>
+        </div>
+        <p>Made With <i class="fa fa-solid fa-heart-o"></i> by Hamaad Afzal</p>
+    </section>
+
+    <!-- -------Javascript For Menu-------------- -->
+
+    <script>
+        let navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
